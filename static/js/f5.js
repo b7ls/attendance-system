@@ -191,16 +191,3 @@ function init() {
 }
 
 init();
-const statusBadge = document.getElementById("statusBadge");
-
-document.getElementById("checkInBtn").addEventListener("click", () => {
-    statusBadge.textContent = "تم تسجيل الحضور ✅";
-    statusBadge.classList.remove("inactive");
-    statusBadge.classList.add("active");
-});
-
-document.getElementById("checkOutBtn").addEventListener("click", () => {
-    statusBadge.textContent = "تم تسجيل الانصراف ⛔";
-    statusBadge.classList.remove("active");
-    statusBadge.classList.add("inactive");
-});
