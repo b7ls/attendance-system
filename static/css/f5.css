@@ -409,13 +409,3 @@ body {
         padding: 0.8rem;
     }
 }
-.status-badge.active {
-    background-color: #28a745;
-    color: white;
-}
-
-.status-badge.inactive {
-    background-color: #dc3545;
-    color: white;
-}
-
